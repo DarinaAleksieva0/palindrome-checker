@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #303841;
+    width: 100%
+}
+
+#container{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-style: italic;
+    padding: 1rem;
+}
+
+#palindrome-checker-container{
+    width: min(100vw, 745px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2rem 0 2rem 0;
+    background-color: #be3144;
+    padding: 4rem 3em;
+    border-radius: 1rem;
+}
+
+label{
+    font-size: 2rem;
+    margin-bottom: 1.75rem;
+    font-style: italic;
+    color: white;
+}
+
+#text-input{
+    border: none;
+    background-color: #be3144;
+    border-bottom: 3px solid #303841;
+    height: 30px;
+    width: 250px;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+}
+
+#check-btn{
+    width: 90px;
+   border: none;
+   margin-top: 2rem;
+   border-radius: 0.75rem;
+   background-color: #303841;
+   cursor: pointer;
+   color: #fff;
+   height: 30px;
+   width: 100px;
+   font-size: 1rem;
+   font-style: italic;
+   font-weight: bold;
+}
+
+#result{
+    margin-top: 20px;
+    font-size: 1.7rem;
+}
+
+#palindrome-explained-container{
+    width: min(100vw, 745px);
+    font-size: 1.5rem;
+    min-height: 140px;
+    background-color: #fff;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#description{
+    vertical-align: middle;
+    text-align: center;
+    font-style: italic;
+}
+
